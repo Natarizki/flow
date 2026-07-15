@@ -6,8 +6,6 @@
 
 ![Go Version](https://img.shields.io/badge/go-1.21%2B-00ADD8?logo=go)
 
-![Platform](https://img.shields.io/badge/platform-linux%20%7C%20android%20(termux)
-
 **Federated Local Offload Web** — a peer-to-peer web caching system, built like BitTorrent but for the web. Peers share locally cached content with each other instead of every request hitting the origin server.
 
 Built in Go, runs as a daemon (`flow`) controlled via a CLI (`flc`), with a full web dashboard. Designed to run on Termux/Android ARM64 as well as standard Linux.
