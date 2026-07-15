@@ -1,20 +1,12 @@
 # FLOW
 
-[
-
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
-](LICENSE)
-[
+[LICENSE](LICENSE)
 
 ![Go Version](https://img.shields.io/badge/go-1.21%2B-00ADD8?logo=go)
 
-](https://go.dev)
-[
-
 ![Platform](https://img.shields.io/badge/platform-linux%20%7C%20android%20(termux)
-
--lightgrey)](#installation)
 
 **Federated Local Offload Web** — a peer-to-peer web caching system, built like BitTorrent but for the web. Peers share locally cached content with each other instead of every request hitting the origin server.
 
