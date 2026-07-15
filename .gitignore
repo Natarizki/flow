@@ -1,0 +1,21 @@
+# build artifacts
+bin/
+tmp_test/
+
+# runtime data — generated when the daemon runs, contains secrets/private data
+flow-cache/
+*.db
+identity.key
+tls/
+phishing-blocklist.txt
+
+# config with potentially sensitive overrides
+flow.yaml
+
+# Go
+go.work
+go.work.sum
+
+# OS/editor cruft
+.DS_Store
+*.swp
